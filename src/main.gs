@@ -117,7 +117,7 @@ ${data}`;
   const payload = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
-      temperature: 0.5,
+      temperature: 0.3,
       maxOutputTokens: 4096,
     },
   };
